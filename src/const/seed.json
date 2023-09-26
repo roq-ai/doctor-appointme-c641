@@ -1,0 +1,2672 @@
+[
+  {
+    "insurance_provider": [
+      {
+        "id": "9bb4c5f6-50a9-4946-87d3-c2eadeeb62dd",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-26T12:39:43.107Z",
+        "updated_at": "2023-09-25T21:59:28.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "368772e0-3481-45b1-9735-33b8d04c29f6",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T05:49:11.277Z",
+        "updated_at": "2023-09-26T04:40:22.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "475a471f-5e36-400a-b96f-170fe009ec29",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-25T18:15:37.750Z",
+        "updated_at": "2023-09-25T17:10:15.934Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f99f509-3aff-49c0-9d04-77540d1aa038",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-26T01:45:24.816Z",
+        "updated_at": "2023-09-25T22:35:28.362Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a140c22f-e35b-4830-9c86-aa1129f2a7d1",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-555-6666",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-26T13:01:30.535Z",
+        "updated_at": "2023-09-26T07:04:33.554Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "ca6c04b3-de9e-4556-9224-4caa9e1e771f",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-25T15:37:20.310Z",
+        "updated_at": "2023-09-26T15:11:44.910Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2782cc6-33fe-45b0-a42d-469465f975ae",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-25T19:41:32.917Z",
+        "updated_at": "2023-09-25T19:28:19.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ce6a40d-0fd9-4355-9cc5-e99977ea58d7",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T11:33:13.432Z",
+        "updated_at": "2023-09-26T06:06:32.204Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b4e67ee-0e22-4ef2-9adf-1c592bad795e",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-26T04:32:31.589Z",
+        "updated_at": "2023-09-26T04:21:56.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a13ae54-abfa-4efd-9549-eda46ffbd640",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-555-6666",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-25T18:58:18.442Z",
+        "updated_at": "2023-09-25T21:35:16.162Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "1eb2c016-90ab-4b7c-bc79-0dfc529a5076",
+        "staff_name": "Dr. John Doe",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.doe@clinic.com",
+        "created_at": "2023-09-26T03:20:20.268Z",
+        "updated_at": "2023-09-26T10:20:44.400Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00883303-ba17-4cbd-9d24-859a7a3bce00",
+        "staff_name": "Dr. Jane Smith",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.smith@clinic.com",
+        "created_at": "2023-09-26T13:05:03.743Z",
+        "updated_at": "2023-09-26T03:04:21.141Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05c9db61-bdc3-438d-b5df-37edae0e0be5",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-555-5555",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T02:39:49.025Z",
+        "updated_at": "2023-09-26T06:10:02.389Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe50f00-d587-43c6-92d8-b1b1b6012330",
+        "staff_name": "Dr. Sarah Jones",
+        "staff_position": "Dentist",
+        "contact_number": "111-222-3333",
+        "email": "sarah.jones@clinic.com",
+        "created_at": "2023-09-26T00:48:35.603Z",
+        "updated_at": "2023-09-26T03:07:32.335Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "778969d9-496d-4c2a-81f8-f376177f8359",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Pharmacist",
+        "contact_number": "444-555-6666",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-25T17:00:44.518Z",
+        "updated_at": "2023-09-26T03:34:19.616Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b7077a81-23ae-49a4-8ad3-4ca728831672",
+        "appointment_date": "2023-09-25T20:06:02.150Z",
+        "appointment_time": "2021-10-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-25T16:33:53.833Z",
+        "updated_at": "2023-09-26T11:53:27.656Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "65a74abf-860c-4f16-99c5-67e8d6bfd4a7",
+        "appointment_date": "2023-09-26T02:43:32.990Z",
+        "appointment_time": "2021-10-02 10:30 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T10:19:35.677Z",
+        "updated_at": "2023-09-26T06:24:04.088Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "8d8614ad-78ce-4f65-8f77-b80c5d9a5891",
+        "appointment_date": "2023-09-26T06:24:13.401Z",
+        "appointment_time": "2021-10-03 11:15 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T19:11:26.905Z",
+        "updated_at": "2023-09-25T21:31:22.874Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "28c35649-dc4d-445a-8fc4-8ad286d4da3b",
+        "appointment_date": "2023-09-26T00:28:44.080Z",
+        "appointment_time": "2021-10-04 02:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-26T14:44:15.046Z",
+        "updated_at": "2023-09-26T09:55:38.161Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "431c1459-23a7-437f-9b8f-1e857cc53b72",
+        "appointment_date": "2023-09-26T05:08:56.889Z",
+        "appointment_time": "2021-10-05 03:30 PM",
+        "status": "No-show",
+        "created_at": "2023-09-25T18:22:53.214Z",
+        "updated_at": "2023-09-26T07:35:22.261Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e91c63e7-4bb2-42ee-93ae-d48636f0837c",
+        "email": "Rosemary11@roq.tech",
+        "firstName": "Fredy",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33280633",
+        "tenantId": null
+      },
+      {
+        "reference": "ab0fe54f-62fd-4e37-8c6e-0925288e7a4f",
+        "email": "Felton.Mraz@roq.tech",
+        "firstName": "Brady",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea9986bc-0f09-42db-a21a-69220cdd9263",
+        "email": "Zella45@roq.tech",
+        "firstName": "Lea",
+        "lastName": "Koepp-Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96927610",
+        "tenantId": null
+      },
+      {
+        "reference": "943b6a84-79af-4be8-abba-30e76a9d8333",
+        "email": "Jakob.Klocko@roq.tech",
+        "firstName": "Crawford",
+        "lastName": "Keebler-O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e19e448d-7700-4b85-b0a6-1e601f337446",
+        "email": "Richmond_Schmeler2@roq.tech",
+        "firstName": "Daniela",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27660705",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "b47f5caa-5730-4a58-89e1-200e073cbebf",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-26T02:48:00.025Z",
+        "updated_at": "2023-09-26T01:17:39.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38b1b9dc-f345-4da8-8a20-641eca1d319e",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-25T16:06:01.533Z",
+        "updated_at": "2023-09-26T01:07:24.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f9b3941-48b3-483f-aaef-5c9cfb883105",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T09:55:35.438Z",
+        "updated_at": "2023-09-25T16:06:19.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e532f39-02b1-471b-adf4-f9c5e37b6552",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-26T03:29:25.427Z",
+        "updated_at": "2023-09-25T17:02:53.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e02ef3-b16a-406f-b299-b121f28e566e",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-555-6666",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-26T02:18:04.636Z",
+        "updated_at": "2023-09-25T15:50:34.616Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "bb9bfd1a-c4f9-4194-977e-642d784eac27",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T05:58:46.574Z",
+        "updated_at": "2023-09-26T06:55:49.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4671b1b0-1ee7-4b5c-9ef5-a7f4fd04942e",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-25T23:04:07.481Z",
+        "updated_at": "2023-09-26T09:47:24.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34f466ea-129f-4894-917c-54df93cc6eb4",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T12:25:06.467Z",
+        "updated_at": "2023-09-26T01:13:38.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaf1e6bf-c4e3-4fe4-b2eb-6e43504dc051",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-26T10:54:03.854Z",
+        "updated_at": "2023-09-26T11:31:04.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62d682ee-b2d3-43b0-b6cf-a8e83dd428b9",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-555-6666",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-25T20:23:00.369Z",
+        "updated_at": "2023-09-25T16:29:50.580Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "711e1c99-674a-46be-9983-fcaf583c8df0",
+        "staff_name": "Dr. John Smith",
+        "staff_position": "General Practitioner",
+        "contact_number": "123-456-7890",
+        "email": "john.smith@clinic.com",
+        "created_at": "2023-09-25T19:40:31.007Z",
+        "updated_at": "2023-09-25T17:21:44.967Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a641f2d9-ef59-4dbe-9a75-e9f682f81714",
+        "staff_name": "Dr. Jane Johnson",
+        "staff_position": "Pediatrician",
+        "contact_number": "987-654-3210",
+        "email": "jane.johnson@clinic.com",
+        "created_at": "2023-09-26T10:43:44.643Z",
+        "updated_at": "2023-09-26T05:00:13.158Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c41fde50-562d-4bcd-8bf1-7d43c6033f45",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Dentist",
+        "contact_number": "555-555-5555",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T09:00:08.485Z",
+        "updated_at": "2023-09-25T19:38:24.476Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35408bfd-0878-44f5-9cbf-ef0f0f27b62d",
+        "staff_name": "Dr. Sarah Davis",
+        "staff_position": "Ophthalmologist",
+        "contact_number": "111-222-3333",
+        "email": "sarah.davis@clinic.com",
+        "created_at": "2023-09-26T14:59:05.375Z",
+        "updated_at": "2023-09-25T23:55:12.659Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bde5b1d2-b3bc-424e-8cf6-8b012d07cb22",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Physical Therapist",
+        "contact_number": "444-555-6666",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-25T22:16:44.580Z",
+        "updated_at": "2023-09-26T11:26:50.358Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3f1425f8-19d6-4317-a7dc-d73ed4def05d",
+        "appointment_date": "2023-09-25T18:14:50.025Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T03:23:13.788Z",
+        "updated_at": "2023-09-26T02:21:32.317Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5d516132-ad6f-4bd1-be58-bb80ea24df15",
+        "appointment_date": "2023-09-26T08:07:35.640Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Pending",
+        "created_at": "2023-09-26T14:50:39.296Z",
+        "updated_at": "2023-09-26T07:13:50.342Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "da8bdca0-6222-4aaa-8791-b93d22036744",
+        "appointment_date": "2023-09-26T01:38:33.952Z",
+        "appointment_time": "2022-01-03 11:15 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T15:37:33.666Z",
+        "updated_at": "2023-09-25T17:01:24.254Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "11897a91-884e-477a-bffd-ed05126ea604",
+        "appointment_date": "2023-09-26T13:51:10.689Z",
+        "appointment_time": "2022-01-04 02:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-26T14:39:49.635Z",
+        "updated_at": "2023-09-26T13:06:32.781Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3569a237-ef43-4877-a9d1-24c1da878e08",
+        "appointment_date": "2023-09-26T13:14:37.407Z",
+        "appointment_time": "2022-01-05 03:30 PM",
+        "status": "Rescheduled",
+        "created_at": "2023-09-25T19:00:09.604Z",
+        "updated_at": "2023-09-25T21:23:35.038Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "39f852da-3c8e-4e3b-85f7-27cf6df347ae",
+        "email": "Annalise_Maggio1@roq.tech",
+        "firstName": "Jordan",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84597b08-3a62-4060-891c-c134c4419325",
+        "email": "Kayleigh87@roq.tech",
+        "firstName": "Kayden",
+        "lastName": "Kuhn-Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15328165",
+        "tenantId": null
+      },
+      {
+        "reference": "e99928bf-90da-411b-8592-6c94d02a7c64",
+        "email": "Jeremy_Hoppe81@roq.tech",
+        "firstName": "Kamren",
+        "lastName": "Ullrich-Collins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14721031-84bb-4cdb-9cc9-09188721df72",
+        "email": "Vincenzo16@roq.tech",
+        "firstName": "Neal",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68031431",
+        "tenantId": null
+      },
+      {
+        "reference": "fc9c0151-b6b5-4dab-9b81-80ac7116e5b1",
+        "email": "Jaiden_Keebler@roq.tech",
+        "firstName": "Giovanny",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9434988",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "cabbe65f-073b-4b95-8ccd-103a77ceb4c2",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "555-1234",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-25T21:27:29.049Z",
+        "updated_at": "2023-09-26T15:20:01.293Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "618bdf05-b3d5-4599-802d-e0dd78800943",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "555-5678",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T08:45:00.227Z",
+        "updated_at": "2023-09-26T04:10:01.432Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e9a89eb-7d0f-4491-88ff-fcb4cc7ce416",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-9012",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T05:41:02.375Z",
+        "updated_at": "2023-09-26T10:50:29.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9f1663d-d8b3-4cdf-aa32-bf9d57b684b3",
+        "provider_name": "Insurance Co",
+        "provider_address": "321 Maple Ave",
+        "contact_number": "555-3456",
+        "email": "info@insuranceco.com",
+        "created_at": "2023-09-26T04:39:36.281Z",
+        "updated_at": "2023-09-25T22:25:18.629Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33b83656-3857-45f5-a749-22d96375702d",
+        "provider_name": "Provider Insurance",
+        "provider_address": "555 Pine Rd",
+        "contact_number": "555-7890",
+        "email": "info@providerinsurance.com",
+        "created_at": "2023-09-26T10:09:29.552Z",
+        "updated_at": "2023-09-26T03:50:16.912Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "8f7af302-ff38-48f5-af1e-bce50c05002d",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "555-1234",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T13:10:53.391Z",
+        "updated_at": "2023-09-26T04:09:46.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93ec8107-78ed-44a6-b388-7acfa084a07c",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "555-5678",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T10:21:40.645Z",
+        "updated_at": "2023-09-25T22:04:41.045Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b34eeac-77ee-439e-89a5-3b8da8ccb4c4",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-9012",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T08:13:26.736Z",
+        "updated_at": "2023-09-25T23:50:33.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d7e79ab-a0d4-4aff-b3cd-ee07217c6e3e",
+        "provider_name": "Healthcare Co",
+        "provider_address": "321 Maple Ave",
+        "contact_number": "555-3456",
+        "email": "info@healthcareco.com",
+        "created_at": "2023-09-26T11:55:06.453Z",
+        "updated_at": "2023-09-26T08:40:35.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06bb0ca6-0e8b-4a6a-949f-89e93329f35c",
+        "provider_name": "Provider Healthcare",
+        "provider_address": "555 Pine Rd",
+        "contact_number": "555-7890",
+        "email": "info@providerhealthcare.com",
+        "created_at": "2023-09-25T21:56:25.214Z",
+        "updated_at": "2023-09-26T03:53:04.227Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "043be724-ff33-4014-8bb5-bee3c56bc2b0",
+        "staff_name": "Dr. John Doe",
+        "staff_position": "Physician",
+        "contact_number": "555-1234",
+        "email": "john.doe@example.com",
+        "created_at": "2023-09-26T00:27:18.133Z",
+        "updated_at": "2023-09-26T00:20:07.660Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6678178-6376-43b9-a39e-e5fbbed78415",
+        "staff_name": "Dr. Jane Smith",
+        "staff_position": "Surgeon",
+        "contact_number": "555-5678",
+        "email": "jane.smith@example.com",
+        "created_at": "2023-09-25T18:24:16.775Z",
+        "updated_at": "2023-09-25T15:41:57.690Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfb359cd-f70d-480a-a127-111bf2e746fc",
+        "staff_name": "Dr. Michael Johnson",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-9012",
+        "email": "michael.johnson@example.com",
+        "created_at": "2023-09-25T23:39:51.599Z",
+        "updated_at": "2023-09-25T22:09:43.307Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e525bda-4a87-4e15-a339-481b762060be",
+        "staff_name": "Dr. Sarah Brown",
+        "staff_position": "Medical Assistant",
+        "contact_number": "555-3456",
+        "email": "sarah.brown@example.com",
+        "created_at": "2023-09-26T07:11:21.017Z",
+        "updated_at": "2023-09-26T08:21:27.213Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5553998a-65d8-4316-b824-0d5a50a58fee",
+        "staff_name": "Dr. David Davis",
+        "staff_position": "Pharmacist",
+        "contact_number": "555-7890",
+        "email": "david.davis@example.com",
+        "created_at": "2023-09-26T00:08:18.630Z",
+        "updated_at": "2023-09-26T15:04:01.677Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "f6a89533-b748-49fd-845e-c6cfc315abe2",
+        "appointment_date": "2023-09-25T15:53:25.740Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T09:59:34.552Z",
+        "updated_at": "2023-09-26T07:18:45.479Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d5d58574-ead6-4ae7-a798-62257454614b",
+        "appointment_date": "2023-09-26T11:25:13.710Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Pending",
+        "created_at": "2023-09-26T01:10:40.513Z",
+        "updated_at": "2023-09-25T23:17:07.146Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "534fd6d1-08a9-4884-858f-eb9046e4a3f2",
+        "appointment_date": "2023-09-25T21:22:31.324Z",
+        "appointment_time": "2022-01-03 02:15 PM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T18:33:43.669Z",
+        "updated_at": "2023-09-25T16:37:45.780Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ba6efe2e-7646-42d4-97d4-dcc3ef31bf51",
+        "appointment_date": "2023-09-25T21:44:08.489Z",
+        "appointment_time": "2022-01-04 11:45 AM",
+        "status": "Completed",
+        "created_at": "2023-09-26T08:44:56.287Z",
+        "updated_at": "2023-09-26T09:06:13.063Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "272864aa-e46a-4b57-a1b8-d72de4e0474d",
+        "appointment_date": "2023-09-25T19:11:37.885Z",
+        "appointment_time": "2022-01-05 03:30 PM",
+        "status": "Rescheduled",
+        "created_at": "2023-09-25T20:49:00.195Z",
+        "updated_at": "2023-09-26T14:09:16.890Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c814dd85-83d4-4700-982c-7a59f0aaf9b9",
+        "email": "Kenneth_Borer20@roq.tech",
+        "firstName": "Brook",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6892727",
+        "tenantId": null
+      },
+      {
+        "reference": "e6d916ab-287c-4c7f-980b-22a00a27ee49",
+        "email": "Abbey.Pfeffer@roq.tech",
+        "firstName": "Jeremie",
+        "lastName": "Mills-West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10298002",
+        "tenantId": null
+      },
+      {
+        "reference": "5e610f8f-4152-4d91-af56-b88d9b32e764",
+        "email": "Lauryn_Armstrong96@roq.tech",
+        "firstName": "Jamison",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65915640",
+        "tenantId": null
+      },
+      {
+        "reference": "88a44590-84ee-40e3-bde2-c7eb57f6f88f",
+        "email": "Leland.Kovacek56@roq.tech",
+        "firstName": "Tessie",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39663765",
+        "tenantId": null
+      },
+      {
+        "reference": "db33df5d-2a6d-420c-b5de-35e80e0503ff",
+        "email": "Bridie.Kiehn62@roq.tech",
+        "firstName": "Justice",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/358.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "3f5ece64-2155-4751-b976-4410a7ced83a",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-25T21:03:39.495Z",
+        "updated_at": "2023-09-25T23:03:55.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87248e47-9275-42bc-9be7-3727496bb44f",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T03:58:16.701Z",
+        "updated_at": "2023-09-26T12:44:08.492Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4a1f9b8-469e-4524-b913-375369b8371b",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T03:41:17.713Z",
+        "updated_at": "2023-09-26T00:43:02.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f3a2073-fa4e-4e60-8eb1-24e0170c8357",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-25T17:26:09.103Z",
+        "updated_at": "2023-09-26T06:45:03.113Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d32917fb-5bdc-48e8-812a-32016fdb909c",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Maple St",
+        "contact_number": "444-555-6666",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-26T12:02:29.593Z",
+        "updated_at": "2023-09-25T18:49:30.629Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "7c14d322-8cbc-4d96-a965-c889035eb990",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T14:01:49.626Z",
+        "updated_at": "2023-09-26T08:25:34.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed0c43e1-0580-4507-b1cc-d228526c3399",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T01:10:46.965Z",
+        "updated_at": "2023-09-26T11:02:43.934Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82bce165-0d2e-41bf-aa9a-ed9885ceb4b8",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T03:12:19.692Z",
+        "updated_at": "2023-09-26T06:33:24.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17b1d1b2-6890-4bad-a002-0dfd204a1d5b",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-25T22:24:01.658Z",
+        "updated_at": "2023-09-26T10:03:39.990Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "befec550-0d12-4f36-a275-b1c58dd366e3",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Maple St",
+        "contact_number": "444-555-6666",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-26T03:11:28.518Z",
+        "updated_at": "2023-09-25T22:26:37.699Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "3229e5b7-c016-4cfc-9598-5445cbfae093",
+        "staff_name": "Dr. John Doe",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.doe@clinic.com",
+        "created_at": "2023-09-26T05:42:35.857Z",
+        "updated_at": "2023-09-25T21:09:36.422Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcf0ece9-31c7-4969-a64d-e6a27c32e174",
+        "staff_name": "Dr. Jane Smith",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.smith@clinic.com",
+        "created_at": "2023-09-26T10:50:28.545Z",
+        "updated_at": "2023-09-26T06:45:22.234Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af7c9161-6403-4249-ad7c-5728c6a1dbf4",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-555-5555",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T13:32:36.557Z",
+        "updated_at": "2023-09-26T04:46:11.340Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f5b8b58-82bb-4bac-adfc-83834b6c8e08",
+        "staff_name": "Dr. Sarah Wilson",
+        "staff_position": "Dentist",
+        "contact_number": "111-222-3333",
+        "email": "sarah.wilson@clinic.com",
+        "created_at": "2023-09-25T20:10:01.648Z",
+        "updated_at": "2023-09-26T03:49:09.160Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ee619ba-b455-4fbb-8393-5067d526ddec",
+        "staff_name": "Dr. David Jones",
+        "staff_position": "Pharmacist",
+        "contact_number": "444-555-6666",
+        "email": "david.jones@clinic.com",
+        "created_at": "2023-09-26T07:18:25.293Z",
+        "updated_at": "2023-09-25T22:09:28.602Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "1c920586-472b-475a-a9ba-6563ae21e6af",
+        "appointment_date": "2023-09-25T16:08:26.903Z",
+        "appointment_time": "2021-10-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-25T17:08:24.427Z",
+        "updated_at": "2023-09-26T03:09:38.568Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "33a6417a-e3da-45d8-aa4f-b702cb95731b",
+        "appointment_date": "2023-09-26T06:48:58.683Z",
+        "appointment_time": "2021-10-02 10:30 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T00:21:43.448Z",
+        "updated_at": "2023-09-26T03:26:04.973Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3def01f9-9e26-46e1-bdd9-d0e902c5354c",
+        "appointment_date": "2023-09-26T11:28:03.097Z",
+        "appointment_time": "2021-10-03 11:15 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T06:59:37.901Z",
+        "updated_at": "2023-09-26T05:26:34.324Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b4674972-bb6c-4446-88f0-e1b02e750744",
+        "appointment_date": "2023-09-25T15:50:09.038Z",
+        "appointment_time": "2021-10-04 02:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-25T19:55:59.343Z",
+        "updated_at": "2023-09-26T09:42:16.536Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0ec1d113-a0af-48be-bdb7-63146e6e1f30",
+        "appointment_date": "2023-09-26T13:43:07.809Z",
+        "appointment_time": "2021-10-05 03:45 PM",
+        "status": "No Show",
+        "created_at": "2023-09-26T05:30:50.666Z",
+        "updated_at": "2023-09-26T05:36:42.582Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14fb4d1f-0ec9-407c-9a3a-a47b060fa4dc",
+        "email": "Eliezer_Powlowski@roq.tech",
+        "firstName": "Mya",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/457.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ee5e671c-6b44-426b-9e4f-a0aa8a045425",
+        "email": "Amina.Olson25@roq.tech",
+        "firstName": "Jordy",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99429096",
+        "tenantId": null
+      },
+      {
+        "reference": "379ba7c5-3752-45af-bff6-a00c2fb4b08b",
+        "email": "Janis69@roq.tech",
+        "firstName": "Randall",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a45d6d7-1dfa-4dfc-9c0e-1d0af46cf05d",
+        "email": "Enrico.Pagac62@roq.tech",
+        "firstName": "Birdie",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37918925",
+        "tenantId": null
+      },
+      {
+        "reference": "24e9c242-2acb-44a0-861b-a9874b679dd1",
+        "email": "Fabiola_Windler-Schamberger@roq.tech",
+        "firstName": "Cecilia",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/174.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "3ef6119d-c37d-42cd-94e9-7756633c6666",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-26T01:08:36.749Z",
+        "updated_at": "2023-09-25T18:37:29.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a52f88a-3de3-4b9e-9e46-e32bd5f0383e",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T13:47:47.791Z",
+        "updated_at": "2023-09-26T12:53:22.442Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6877afb5-03ce-4bd1-bf84-4948891364db",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-123-4567",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T02:20:54.213Z",
+        "updated_at": "2023-09-25T17:08:56.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ab8774e-d2f7-4147-8817-a7f54bb9e57f",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Maple St",
+        "contact_number": "888-999-0000",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-26T06:40:40.907Z",
+        "updated_at": "2023-09-25T18:16:43.631Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95d5f70c-1fa7-46fd-85db-9a6d8ebb6c20",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-26T07:42:04.205Z",
+        "updated_at": "2023-09-25T18:14:35.786Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "c2bc47d3-fb1e-420e-b667-e0cbe7638804",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T02:14:54.518Z",
+        "updated_at": "2023-09-26T15:04:09.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bedb843-d685-45ea-90cc-2cbc6f5f2de5",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T03:38:27.626Z",
+        "updated_at": "2023-09-26T11:10:09.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b0693df-cf87-4be5-adf5-f277b4d5edbf",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-123-4567",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-25T17:13:39.210Z",
+        "updated_at": "2023-09-25T20:09:55.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa60fad5-38bc-40a7-95da-b966c90086b5",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Maple St",
+        "contact_number": "888-999-0000",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-25T19:04:55.198Z",
+        "updated_at": "2023-09-26T12:07:37.119Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e1e7e49-c57b-4897-b75a-91a492ccd3a4",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-26T09:26:31.956Z",
+        "updated_at": "2023-09-26T13:38:43.271Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "ab03bd2d-0c9e-4a04-b34a-61b8282e8925",
+        "staff_name": "Dr. John Smith",
+        "staff_position": "General Practitioner",
+        "contact_number": "123-456-7890",
+        "email": "john.smith@clinic.com",
+        "created_at": "2023-09-25T15:30:46.663Z",
+        "updated_at": "2023-09-26T13:53:03.037Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f8b146c-d810-48da-8f34-ab7bb326ce0c",
+        "staff_name": "Dr. Jane Doe",
+        "staff_position": "Dentist",
+        "contact_number": "987-654-3210",
+        "email": "jane.doe@clinic.com",
+        "created_at": "2023-09-26T12:29:38.695Z",
+        "updated_at": "2023-09-26T07:05:46.295Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c91f3660-93e0-454c-90b5-a9547952e115",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Pediatrician",
+        "contact_number": "555-123-4567",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T06:46:35.495Z",
+        "updated_at": "2023-09-26T12:57:50.071Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d0cd884-1e66-44c8-8756-bf0fd37acf5d",
+        "staff_name": "Dr. Sarah Jones",
+        "staff_position": "Orthopedic Surgeon",
+        "contact_number": "888-999-0000",
+        "email": "sarah.jones@clinic.com",
+        "created_at": "2023-09-26T05:58:59.100Z",
+        "updated_at": "2023-09-25T21:25:37.045Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88771df1-9ae1-4d39-9689-db6fe7d4c4c3",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Dermatologist",
+        "contact_number": "111-222-3333",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-25T19:47:29.778Z",
+        "updated_at": "2023-09-26T06:15:55.798Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ed1f0fcc-c581-4fb5-9595-62d4add18729",
+        "appointment_date": "2023-09-26T07:43:17.749Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T01:49:17.873Z",
+        "updated_at": "2023-09-26T08:53:11.060Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cbaecb39-5ec3-49fe-9e92-57342cb25b6b",
+        "appointment_date": "2023-09-26T00:07:14.008Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Pending",
+        "created_at": "2023-09-25T18:54:11.974Z",
+        "updated_at": "2023-09-25T19:37:35.399Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "051f8a0d-70f0-46ac-b655-6d6298a81593",
+        "appointment_date": "2023-09-25T19:04:29.075Z",
+        "appointment_time": "2022-01-03 11:15 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T10:15:53.399Z",
+        "updated_at": "2023-09-25T21:18:44.566Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "23e3f53b-41e1-433c-96c4-2808df2ff80e",
+        "appointment_date": "2023-09-26T14:35:30.278Z",
+        "appointment_time": "2022-01-04 02:45 PM",
+        "status": "Completed",
+        "created_at": "2023-09-26T07:46:45.089Z",
+        "updated_at": "2023-09-26T00:44:28.641Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d807e82c-d0bc-4592-a6bf-60e9a0d915ee",
+        "appointment_date": "2023-09-25T20:06:03.828Z",
+        "appointment_time": "2022-01-05 03:30 PM",
+        "status": "Rescheduled",
+        "created_at": "2023-09-26T04:29:08.265Z",
+        "updated_at": "2023-09-25T23:24:43.926Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "310f4b92-4929-403d-a94a-f7cb73dd9901",
+        "email": "Ally.Homenick@roq.tech",
+        "firstName": "Ollie",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1698031",
+        "tenantId": null
+      },
+      {
+        "reference": "f14f696e-2a81-46f9-8cd8-1784f3d63900",
+        "email": "Nedra_Beer59@roq.tech",
+        "firstName": "Esperanza",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a31925e-a95f-4e20-9a8f-6b34653e8910",
+        "email": "Madonna83@roq.tech",
+        "firstName": "Ottis",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65226013",
+        "tenantId": null
+      },
+      {
+        "reference": "2f1422bd-c6a8-4533-9a6c-24f4547e1cc7",
+        "email": "Ida_Moore50@roq.tech",
+        "firstName": "Jules",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9524472",
+        "tenantId": null
+      },
+      {
+        "reference": "c1a7382d-b496-45ec-8cdb-01c267bc37f1",
+        "email": "Javier70@roq.tech",
+        "firstName": "Payton",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "9514fdac-d996-49db-b4e0-326f8eb0bd57",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-25T18:05:47.999Z",
+        "updated_at": "2023-09-26T11:22:13.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e148ba05-89bb-4a62-8ff1-ccb1c76e1254",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T11:28:24.271Z",
+        "updated_at": "2023-09-25T18:42:22.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "970e0732-c630-4e5b-b410-0f129752e113",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "456-789-1230",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T06:22:20.727Z",
+        "updated_at": "2023-09-26T07:40:12.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a7b379b-785a-4b94-9614-a14bcda05a41",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Pine St",
+        "contact_number": "321-654-9870",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-26T10:36:00.415Z",
+        "updated_at": "2023-09-26T03:20:55.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb051cb7-d251-4425-b0b9-2fdd4abc4c8e",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Maple St",
+        "contact_number": "789-123-4560",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-25T17:40:52.346Z",
+        "updated_at": "2023-09-26T00:17:26.197Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "2a893b81-0399-4e6b-96d9-c69f8ca8e920",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-25T21:48:31.749Z",
+        "updated_at": "2023-09-25T17:04:35.092Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c652159-6bb3-4ed6-9da2-69940febb057",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T08:54:42.709Z",
+        "updated_at": "2023-09-25T17:24:56.321Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce64128f-9a99-4a58-8159-8c540c1a7eb6",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "456-789-1230",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-25T21:25:05.665Z",
+        "updated_at": "2023-09-26T04:11:08.054Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3392530-e87f-4859-929b-6d4680552f47",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Pine St",
+        "contact_number": "321-654-9870",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-26T04:31:52.885Z",
+        "updated_at": "2023-09-26T06:54:32.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0feb9efe-7c47-4219-ab10-b3c6604623c8",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Maple St",
+        "contact_number": "789-123-4560",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-26T04:12:44.227Z",
+        "updated_at": "2023-09-26T07:06:49.432Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "212b3db9-ff8e-4ed7-acdf-bbcb465370f6",
+        "staff_name": "Dr. John Doe",
+        "staff_position": "General Practitioner",
+        "contact_number": "123-456-7890",
+        "email": "john.doe@clinic.com",
+        "created_at": "2023-09-25T16:13:31.960Z",
+        "updated_at": "2023-09-25T16:29:24.597Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "107de652-a415-4386-8504-32491b05b368",
+        "staff_name": "Dr. Jane Smith",
+        "staff_position": "Pediatrician",
+        "contact_number": "987-654-3210",
+        "email": "jane.smith@clinic.com",
+        "created_at": "2023-09-26T01:40:39.897Z",
+        "updated_at": "2023-09-26T05:12:19.418Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c734fe5a-4499-442b-a12d-c9250b2bf85d",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Surgeon",
+        "contact_number": "456-789-1230",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T10:04:26.147Z",
+        "updated_at": "2023-09-25T17:31:55.158Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df07712f-8c84-4ca6-a38b-a46d7ee79f01",
+        "staff_name": "Dr. Sarah Jones",
+        "staff_position": "Dentist",
+        "contact_number": "321-654-9870",
+        "email": "sarah.jones@clinic.com",
+        "created_at": "2023-09-26T08:17:31.577Z",
+        "updated_at": "2023-09-25T22:07:18.181Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f92374e-0509-4f0a-8910-d511ab75b5a5",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Cardiologist",
+        "contact_number": "789-123-4560",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-26T02:18:54.310Z",
+        "updated_at": "2023-09-26T12:07:46.412Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2bccad56-34ec-4e45-a499-6325942dff89",
+        "appointment_date": "2023-09-26T06:47:36.012Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-26T05:08:38.216Z",
+        "updated_at": "2023-09-25T18:05:32.052Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0ced63b8-7d9d-4bdc-b996-fc70ab034928",
+        "appointment_date": "2023-09-26T09:14:25.140Z",
+        "appointment_time": "2022-01-02 10:00 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T01:10:45.806Z",
+        "updated_at": "2023-09-26T07:29:11.233Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e5ef1a92-c9d8-4f8e-b1c1-bf295dd5e1e4",
+        "appointment_date": "2023-09-26T12:39:11.893Z",
+        "appointment_time": "2022-01-03 11:00 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T17:32:32.441Z",
+        "updated_at": "2023-09-25T20:38:38.708Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5dd213ab-ae2b-4e46-a65a-ff5f5e29ccb2",
+        "appointment_date": "2023-09-26T05:12:14.380Z",
+        "appointment_time": "2022-01-04 12:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-25T23:21:12.831Z",
+        "updated_at": "2023-09-26T06:06:07.825Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e25795b0-5213-4c7a-9a4b-294856d56331",
+        "appointment_date": "2023-09-26T15:00:33.625Z",
+        "appointment_time": "2022-01-05 01:00 PM",
+        "status": "No Show",
+        "created_at": "2023-09-25T18:39:52.441Z",
+        "updated_at": "2023-09-26T06:48:30.490Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d67a4233-c111-4473-b0ce-9d7dad51ed5c",
+        "email": "Florida11@roq.tech",
+        "firstName": "Jensen",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e2e735d-daed-499f-a1a9-55c3c67e13f2",
+        "email": "Robert59@roq.tech",
+        "firstName": "Audie",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd0c2bb4-3687-4b83-bd88-0a6668bb8333",
+        "email": "Keon_Nikolaus-Emard93@roq.tech",
+        "firstName": "Alicia",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/697.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd234dde-3490-4155-bdbb-e85f4dca0b28",
+        "email": "Jake.Wintheiser85@roq.tech",
+        "firstName": "Maci",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/917.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85e6054c-7909-4e92-a0e7-e38fb7c24956",
+        "email": "Carson13@roq.tech",
+        "firstName": "Corine",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4364129",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "e6bf383a-1b8d-4204-85f3-5c983852d64e",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-25T17:35:00.893Z",
+        "updated_at": "2023-09-25T21:09:37.908Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b44cd3-5047-405b-ba35-85d1a6b085cc",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T11:52:10.965Z",
+        "updated_at": "2023-09-26T07:33:35.569Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "999d5da0-efee-4948-a44f-a9b592554bd3",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-123-4567",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-25T20:10:30.387Z",
+        "updated_at": "2023-09-26T08:29:25.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a666a9a0-221f-4e23-9c34-5647be3b6c3e",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "321 Pine St",
+        "contact_number": "777-888-9999",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T12:25:01.910Z",
+        "updated_at": "2023-09-25T16:16:07.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4571e170-f411-44e9-a4ad-a4b694eee9bb",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "654 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T11:06:16.172Z",
+        "updated_at": "2023-09-26T15:16:36.746Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "c1ba8cad-165d-4988-be23-512053d19211",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T01:15:31.300Z",
+        "updated_at": "2023-09-26T01:51:02.792Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1249181-367b-4261-a338-b7ae85072532",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T04:59:35.063Z",
+        "updated_at": "2023-09-26T13:45:43.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e227a92-9026-4f96-8576-4861dff2d1a8",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-123-4567",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T14:00:06.620Z",
+        "updated_at": "2023-09-26T07:38:35.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f654b5-14fd-4871-bf46-ff1f88fcb6fc",
+        "provider_name": "ABC Medical Center",
+        "provider_address": "321 Pine St",
+        "contact_number": "777-888-9999",
+        "email": "info@abcmedicalcenter.com",
+        "created_at": "2023-09-26T09:37:47.677Z",
+        "updated_at": "2023-09-26T08:44:46.532Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f37a670-6071-4c92-bd93-6752cc9c6d9e",
+        "provider_name": "XYZ Medical Center",
+        "provider_address": "654 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@xyzmedicalcenter.com",
+        "created_at": "2023-09-26T13:17:53.152Z",
+        "updated_at": "2023-09-25T20:34:02.127Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "8e53ac34-e952-4bc2-bfaa-4c78db1dde34",
+        "staff_name": "Dr. John Doe",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.doe@clinic.com",
+        "created_at": "2023-09-26T13:47:29.630Z",
+        "updated_at": "2023-09-26T07:10:48.787Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa632b84-28a5-4b9f-9480-249dc15760d5",
+        "staff_name": "Dr. Jane Smith",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.smith@clinic.com",
+        "created_at": "2023-09-25T23:01:14.363Z",
+        "updated_at": "2023-09-25T17:46:08.089Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a410e5ee-7850-46d7-b440-d3027c2c301a",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-123-4567",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T02:12:19.199Z",
+        "updated_at": "2023-09-26T15:21:36.288Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78f40b0c-bcc5-4e44-a805-ac8c85e55182",
+        "staff_name": "Dr. Sarah Wilson",
+        "staff_position": "Dentist",
+        "contact_number": "777-888-9999",
+        "email": "sarah.wilson@clinic.com",
+        "created_at": "2023-09-25T17:07:46.501Z",
+        "updated_at": "2023-09-25T19:22:54.856Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2a912b-06a2-40ee-baf1-c5dd739cf045",
+        "staff_name": "Dr. David Jones",
+        "staff_position": "Pharmacist",
+        "contact_number": "111-222-3333",
+        "email": "david.jones@clinic.com",
+        "created_at": "2023-09-26T04:33:30.753Z",
+        "updated_at": "2023-09-26T01:36:31.492Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "fed455b8-dd7f-4ffa-bc27-b1e53a77016b",
+        "appointment_date": "2023-09-25T22:07:40.025Z",
+        "appointment_time": "2022-01-01 10:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-26T01:42:57.960Z",
+        "updated_at": "2023-09-26T04:06:09.280Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "14074ff2-d78e-4c4d-9820-b3cd3b96fd54",
+        "appointment_date": "2023-09-25T19:31:51.059Z",
+        "appointment_time": "2022-01-02 11:00 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T04:09:55.466Z",
+        "updated_at": "2023-09-26T00:48:27.441Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b5bc41dd-c5de-4db4-9018-02d10a9702a0",
+        "appointment_date": "2023-09-25T19:32:58.188Z",
+        "appointment_time": "2022-01-03 12:00 PM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T15:43:16.247Z",
+        "updated_at": "2023-09-25T17:03:03.493Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "4ace54bb-6ae0-4a02-8bc0-6a22fe9bf987",
+        "appointment_date": "2023-09-25T22:03:35.168Z",
+        "appointment_time": "2022-01-04 1:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-25T19:55:42.716Z",
+        "updated_at": "2023-09-26T10:49:23.117Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "60529b81-86be-434b-b170-4c601abb7618",
+        "appointment_date": "2023-09-26T01:11:55.908Z",
+        "appointment_time": "2022-01-05 2:00 PM",
+        "status": "No-show",
+        "created_at": "2023-09-26T13:43:40.980Z",
+        "updated_at": "2023-09-26T05:50:11.355Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fc5f0a82-12df-4107-8f9d-5c42336c1bf9",
+        "email": "Jordi91@roq.tech",
+        "firstName": "Monserrate",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c703ac1f-cba9-41c7-a6ff-ac7796f06bea",
+        "email": "Kaya_Schoen74@roq.tech",
+        "firstName": "Edison",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8bf40c5-8f94-4f57-97a7-7380a483d00b",
+        "email": "Orlando30@roq.tech",
+        "firstName": "Vicky",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51678945",
+        "tenantId": null
+      },
+      {
+        "reference": "08aeb633-ae15-4a90-84e7-dcddb754a560",
+        "email": "Burdette_Roob55@roq.tech",
+        "firstName": "Vicenta",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76300487",
+        "tenantId": null
+      },
+      {
+        "reference": "f9fd0378-648e-4461-a126-fd05477f425e",
+        "email": "Brenda_Weissnat94@roq.tech",
+        "firstName": "Jose",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/870.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "b119948c-1bef-46b0-9764-87c4668da3c2",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-25T17:58:50.226Z",
+        "updated_at": "2023-09-26T09:01:38.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9398f655-e56d-487f-a3e0-6200134910bd",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T09:19:53.532Z",
+        "updated_at": "2023-09-26T10:14:53.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97d5f25b-1366-42b1-bf51-38838b5c1b4f",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "456-789-1230",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T08:59:18.310Z",
+        "updated_at": "2023-09-25T23:30:44.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8c7af64-ffba-4f46-b2c2-fbb6b460d735",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Pine St",
+        "contact_number": "321-654-9870",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-25T17:43:29.866Z",
+        "updated_at": "2023-09-26T05:28:57.333Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e33e72-2511-48da-a26f-f72304d222ff",
+        "provider_name": "LMN Insurance",
+        "provider_address": "654 Maple St",
+        "contact_number": "789-123-4560",
+        "email": "info@lmninsurance.com",
+        "created_at": "2023-09-25T18:30:21.688Z",
+        "updated_at": "2023-09-26T01:24:20.712Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "a5d96a2c-d0ea-480d-947b-3ebf38ecf3f0",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-25T23:32:59.572Z",
+        "updated_at": "2023-09-25T20:48:48.009Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b55910d8-f3a9-43e3-9c4c-0c3156c1fcee",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T12:27:44.277Z",
+        "updated_at": "2023-09-26T02:48:53.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54cc52bf-bb12-4cbc-b526-3591a3b5457b",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "456-789-1230",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-26T00:30:31.682Z",
+        "updated_at": "2023-09-26T06:58:30.185Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d0503aa-d975-4e69-b58f-8af4e2b8b6f5",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Pine St",
+        "contact_number": "321-654-9870",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-26T08:57:02.964Z",
+        "updated_at": "2023-09-25T17:38:07.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d602e898-6135-4c43-be9e-707aa334d9c3",
+        "provider_name": "LMN Healthcare",
+        "provider_address": "654 Maple St",
+        "contact_number": "789-123-4560",
+        "email": "info@lmnhealthcare.com",
+        "created_at": "2023-09-25T16:25:33.360Z",
+        "updated_at": "2023-09-26T08:25:39.625Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "b70257f0-1bcf-490a-874d-e34d4b686fcb",
+        "staff_name": "Dr. John Smith",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.smith@clinic.com",
+        "created_at": "2023-09-25T16:57:23.309Z",
+        "updated_at": "2023-09-26T08:59:53.648Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed302d95-738d-4720-8473-8fc662017053",
+        "staff_name": "Dr. Jane Johnson",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.johnson@clinic.com",
+        "created_at": "2023-09-25T17:03:17.195Z",
+        "updated_at": "2023-09-26T11:28:08.255Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07e6e020-b283-4ac6-b22a-b45361ac1d4c",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "456-789-1230",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T07:10:40.412Z",
+        "updated_at": "2023-09-26T03:48:50.648Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2c4cc3a-2580-4870-a2f7-a2a455d57a5e",
+        "staff_name": "Dr. Sarah Davis",
+        "staff_position": "Dentist",
+        "contact_number": "321-654-9870",
+        "email": "sarah.davis@clinic.com",
+        "created_at": "2023-09-26T12:55:00.038Z",
+        "updated_at": "2023-09-26T04:09:33.123Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3252daaa-ff87-476e-85a2-fc68319c99d0",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Orthodontist",
+        "contact_number": "789-123-4560",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-26T09:14:02.786Z",
+        "updated_at": "2023-09-25T23:11:15.284Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c4dbcd55-8bbc-4436-80ec-c2cead841a25",
+        "appointment_date": "2023-09-26T07:04:43.532Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-26T14:22:47.043Z",
+        "updated_at": "2023-09-26T14:57:40.019Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "fc29819d-b47a-4186-84f6-e29b41273789",
+        "appointment_date": "2023-09-26T07:46:35.070Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-25T17:36:25.245Z",
+        "updated_at": "2023-09-25T23:56:16.668Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7dd1a1fc-a8a1-49ec-b0da-b16c102451cf",
+        "appointment_date": "2023-09-25T16:52:51.987Z",
+        "appointment_time": "2022-01-03 02:15 PM",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T04:12:07.608Z",
+        "updated_at": "2023-09-26T11:44:05.424Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "108c867e-df33-45bf-a2eb-a173892e4a97",
+        "appointment_date": "2023-09-26T11:43:50.283Z",
+        "appointment_time": "2022-01-04 11:45 AM",
+        "status": "Completed",
+        "created_at": "2023-09-26T04:44:38.311Z",
+        "updated_at": "2023-09-25T17:09:05.065Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a3d2b5e0-7794-4c36-91d6-f16af489c201",
+        "appointment_date": "2023-09-25T21:22:49.088Z",
+        "appointment_time": "2022-01-05 03:30 PM",
+        "status": "No Show",
+        "created_at": "2023-09-26T02:48:35.870Z",
+        "updated_at": "2023-09-26T09:05:25.273Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62d88d41-08f5-4031-be5a-3a6c38921342",
+        "email": "Helene.Becker@roq.tech",
+        "firstName": "Ernestine",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/605.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20977ccd-eda7-40a2-9b9f-c79fb12e336b",
+        "email": "Justine_Lubowitz-Mertz60@roq.tech",
+        "firstName": "Bennett",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/811.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "caeb9b47-dfd3-4076-a910-7811591a1918",
+        "email": "Gavin_Lubowitz@roq.tech",
+        "firstName": "Daniella",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37644225",
+        "tenantId": null
+      },
+      {
+        "reference": "4b88e461-ad2c-4f92-85aa-001987ba9369",
+        "email": "Louie.Flatley@roq.tech",
+        "firstName": "Danielle",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/408.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d412e34c-8bea-407f-bdac-66c815b44d03",
+        "email": "Erwin48@roq.tech",
+        "firstName": "Christop",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "827e25a1-a7f4-4a8b-b074-9655a262209c",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-26T01:46:14.107Z",
+        "updated_at": "2023-09-26T00:51:16.819Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "013697df-9d2f-4666-8ab3-d65bec08097b",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T06:33:28.098Z",
+        "updated_at": "2023-09-26T13:38:55.039Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "409daab4-37db-4a03-a0d6-7b26aa5f56bc",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T01:16:20.498Z",
+        "updated_at": "2023-09-25T18:53:56.873Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54031bdf-e9f3-48de-bb65-55ec30bfaddb",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "321 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-26T02:18:07.242Z",
+        "updated_at": "2023-09-26T02:53:22.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee1dee42-6450-41cd-9011-f03387476cac",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "654 Maple St",
+        "contact_number": "444-444-4444",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T10:33:12.695Z",
+        "updated_at": "2023-09-25T18:42:58.833Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "a06d8a38-b706-41bf-a25c-3fbe23e36ffb",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-25T22:52:37.057Z",
+        "updated_at": "2023-09-26T00:51:18.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64b6b9ea-8454-4c36-b1ab-6587205076de",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-25T17:53:07.281Z",
+        "updated_at": "2023-09-26T01:29:35.593Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88aa1974-e9e6-4b69-98d7-2e45098c1d71",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-25T16:33:24.331Z",
+        "updated_at": "2023-09-26T01:09:48.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c85800a1-ae66-4d7b-8916-580b4aa614eb",
+        "provider_name": "ABC Medical Center",
+        "provider_address": "321 Pine St",
+        "contact_number": "111-222-3333",
+        "email": "info@abcmedicalcenter.com",
+        "created_at": "2023-09-26T03:18:34.545Z",
+        "updated_at": "2023-09-25T21:55:34.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4888214-7c49-4670-ae45-96fbad07bdf4",
+        "provider_name": "XYZ Medical Center",
+        "provider_address": "654 Maple St",
+        "contact_number": "444-444-4444",
+        "email": "info@xyzmedicalcenter.com",
+        "created_at": "2023-09-26T03:56:27.419Z",
+        "updated_at": "2023-09-26T11:40:10.421Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "d8f8fcec-b162-483c-a392-c2bc00782755",
+        "staff_name": "Dr. John Smith",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.smith@example.com",
+        "created_at": "2023-09-26T04:14:04.960Z",
+        "updated_at": "2023-09-26T07:28:20.152Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2c6fb3d-cdd9-4aab-8e63-7f7c8d8ff862",
+        "staff_name": "Dr. Jane Johnson",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.johnson@example.com",
+        "created_at": "2023-09-25T21:37:03.850Z",
+        "updated_at": "2023-09-26T03:49:27.386Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "462badca-efb5-486f-98a2-a5a7215eb9e8",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-555-5555",
+        "email": "michael.brown@example.com",
+        "created_at": "2023-09-26T15:03:32.935Z",
+        "updated_at": "2023-09-26T02:43:24.119Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93018823-9d16-428c-b5ec-c2581cf932f5",
+        "staff_name": "Dr. Sarah Davis",
+        "staff_position": "Anesthesiologist",
+        "contact_number": "111-222-3333",
+        "email": "sarah.davis@example.com",
+        "created_at": "2023-09-26T11:05:54.793Z",
+        "updated_at": "2023-09-26T13:52:45.222Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eccb27fd-4809-4595-aafc-b85c2b6d4a64",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Pediatrician",
+        "contact_number": "444-444-4444",
+        "email": "david.wilson@example.com",
+        "created_at": "2023-09-25T20:15:53.202Z",
+        "updated_at": "2023-09-26T04:56:14.003Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "89d74574-9c7f-49cd-95c5-894cac731771",
+        "appointment_date": "2023-09-26T01:58:06.032Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-26T07:06:38.652Z",
+        "updated_at": "2023-09-25T19:19:30.564Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c5868eb0-4505-4729-8ed8-a1e1fbd15a43",
+        "appointment_date": "2023-09-26T09:45:09.860Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-26T14:06:28.957Z",
+        "updated_at": "2023-09-26T02:28:01.648Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1f8d9ccd-b377-4dca-9575-dff46c6878ea",
+        "appointment_date": "2023-09-26T09:46:34.704Z",
+        "appointment_time": "2022-01-03 11:15 AM",
+        "status": "Cancelled",
+        "created_at": "2023-09-25T16:35:26.551Z",
+        "updated_at": "2023-09-26T02:22:45.400Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "775026ea-1ba2-4e94-a652-057176704770",
+        "appointment_date": "2023-09-26T06:40:24.746Z",
+        "appointment_time": "2022-01-04 02:00 PM",
+        "status": "Completed",
+        "created_at": "2023-09-26T07:10:34.914Z",
+        "updated_at": "2023-09-26T11:47:09.277Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "81d8ce00-673d-422b-b642-2dae4fe967d0",
+        "appointment_date": "2023-09-26T07:26:38.508Z",
+        "appointment_time": "2022-01-05 03:30 PM",
+        "status": "No Show",
+        "created_at": "2023-09-26T08:14:13.760Z",
+        "updated_at": "2023-09-26T09:11:26.386Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "996200c4-ee09-41c8-92d6-5af0a6741308",
+        "email": "Brook.Schmitt@roq.tech",
+        "firstName": "Erin",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/661.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96202687-a930-4307-8dcb-1eb708170a33",
+        "email": "Cara_Aufderhar@roq.tech",
+        "firstName": "Craig",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49671530",
+        "tenantId": null
+      },
+      {
+        "reference": "55989f8c-2999-451a-9db7-cd57a8d68f7d",
+        "email": "Leif4@roq.tech",
+        "firstName": "Elody",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/865.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34c7e412-52e2-4045-b725-a45825d09a74",
+        "email": "Addie_Stokes55@roq.tech",
+        "firstName": "Connor",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31626124",
+        "tenantId": null
+      },
+      {
+        "reference": "3716ecb4-e748-4d8f-a607-50bc70098e20",
+        "email": "Milan22@roq.tech",
+        "firstName": "Wilford",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance_provider": [
+      {
+        "id": "6d528982-b889-43c6-bf86-9ce9f54451e1",
+        "provider_name": "ABC Insurance",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abcinsurance.com",
+        "created_at": "2023-09-26T00:43:34.017Z",
+        "updated_at": "2023-09-26T05:25:41.803Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bd5d044-58e1-4143-8672-f4d5dc0f873f",
+        "provider_name": "XYZ Insurance",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzinsurance.com",
+        "created_at": "2023-09-26T01:09:51.673Z",
+        "updated_at": "2023-09-26T03:21:53.695Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3896b3fe-48fd-4789-90b4-55834e5a6160",
+        "provider_name": "123 Insurance",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123insurance.com",
+        "created_at": "2023-09-26T04:13:20.593Z",
+        "updated_at": "2023-09-26T12:37:27.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15f68bec-5968-4678-b9f4-49deeec46477",
+        "provider_name": "PQR Insurance",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrinsurance.com",
+        "created_at": "2023-09-26T11:38:28.541Z",
+        "updated_at": "2023-09-26T05:26:23.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f7c0fb-1dbe-4532-b8c1-05e89c41ef23",
+        "provider_name": "DEF Insurance",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-444-4444",
+        "email": "info@definsurance.com",
+        "created_at": "2023-09-26T05:46:03.337Z",
+        "updated_at": "2023-09-25T22:31:05.079Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "d142ea05-4f06-43f0-b6f4-d62550035f95",
+        "provider_name": "ABC Healthcare",
+        "provider_address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "email": "info@abchealthcare.com",
+        "created_at": "2023-09-25T15:29:43.115Z",
+        "updated_at": "2023-09-25T17:35:35.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d064f953-068e-49b5-9771-837306b42070",
+        "provider_name": "XYZ Healthcare",
+        "provider_address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "email": "info@xyzhealthcare.com",
+        "created_at": "2023-09-26T13:37:53.662Z",
+        "updated_at": "2023-09-25T19:22:48.706Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8392bff-a0d0-4adf-a947-104f67eb0b60",
+        "provider_name": "123 Healthcare",
+        "provider_address": "789 Oak St",
+        "contact_number": "555-555-5555",
+        "email": "info@123healthcare.com",
+        "created_at": "2023-09-25T15:42:15.401Z",
+        "updated_at": "2023-09-26T06:30:22.536Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f8d5999-9480-4858-adf3-03ffd0407bbe",
+        "provider_name": "PQR Healthcare",
+        "provider_address": "321 Maple St",
+        "contact_number": "111-222-3333",
+        "email": "info@pqrhealthcare.com",
+        "created_at": "2023-09-25T23:06:46.822Z",
+        "updated_at": "2023-09-26T10:05:58.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef560d33-f128-4a5d-90f5-ec7416d14b42",
+        "provider_name": "DEF Healthcare",
+        "provider_address": "654 Pine St",
+        "contact_number": "444-444-4444",
+        "email": "info@defhealthcare.com",
+        "created_at": "2023-09-26T14:52:36.789Z",
+        "updated_at": "2023-09-26T13:05:40.155Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "8e57a737-ab16-4d9e-aa4f-105f376d2598",
+        "staff_name": "Dr. John Smith",
+        "staff_position": "Physician",
+        "contact_number": "123-456-7890",
+        "email": "john.smith@clinic.com",
+        "created_at": "2023-09-25T15:43:05.934Z",
+        "updated_at": "2023-09-26T05:54:50.049Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a51f8148-dd25-47eb-8b42-54651085bc6d",
+        "staff_name": "Dr. Jane Doe",
+        "staff_position": "Surgeon",
+        "contact_number": "987-654-3210",
+        "email": "jane.doe@clinic.com",
+        "created_at": "2023-09-26T01:47:08.946Z",
+        "updated_at": "2023-09-26T15:26:36.484Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59c02a22-3e1b-4322-9112-87d70b91eda9",
+        "staff_name": "Dr. Michael Brown",
+        "staff_position": "Nurse Practitioner",
+        "contact_number": "555-555-5555",
+        "email": "michael.brown@clinic.com",
+        "created_at": "2023-09-26T02:25:37.117Z",
+        "updated_at": "2023-09-26T03:29:41.191Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c24a5cfe-3ca3-42b6-833c-fc11e4a0d9ae",
+        "staff_name": "Dr. Sarah Jones",
+        "staff_position": "Medical Assistant",
+        "contact_number": "111-222-3333",
+        "email": "sarah.jones@clinic.com",
+        "created_at": "2023-09-26T04:17:23.384Z",
+        "updated_at": "2023-09-25T18:34:44.093Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caf2f06d-a74d-4a00-adba-8ae4e6ee16e1",
+        "staff_name": "Dr. David Wilson",
+        "staff_position": "Pharmacist",
+        "contact_number": "444-444-4444",
+        "email": "david.wilson@clinic.com",
+        "created_at": "2023-09-25T21:14:57.786Z",
+        "updated_at": "2023-09-26T00:32:49.828Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e53e820b-2b2e-447f-b804-6c319ebd3615",
+        "appointment_date": "2023-09-26T15:01:53.675Z",
+        "appointment_time": "2022-01-01 09:00 AM",
+        "status": "Scheduled",
+        "created_at": "2023-09-26T02:38:32.112Z",
+        "updated_at": "2023-09-26T01:23:52.085Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "44a4fe2d-64c7-4cc2-b941-1b7a4472861a",
+        "appointment_date": "2023-09-25T23:19:25.053Z",
+        "appointment_time": "2022-01-02 10:30 AM",
+        "status": "Confirmed",
+        "created_at": "2023-09-25T20:37:15.812Z",
+        "updated_at": "2023-09-26T03:35:39.078Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "80be2012-ce65-463e-a291-0e3df880d3e7",
+        "appointment_date": "2023-09-26T11:15:32.425Z",
+        "appointment_time": "2022-01-03 02:15 PM",
+        "status": "Cancelled",
+        "created_at": "2023-09-26T09:05:44.208Z",
+        "updated_at": "2023-09-26T05:34:33.380Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "92780fe3-3a02-4986-8bde-1b695c9883e8",
+        "appointment_date": "2023-09-25T20:28:36.086Z",
+        "appointment_time": "2022-01-04 11:45 AM",
+        "status": "Completed",
+        "created_at": "2023-09-26T09:22:36.666Z",
+        "updated_at": "2023-09-25T17:50:26.948Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c26b6574-ccf1-4e14-8a5d-f1ee4d60e172",
+        "appointment_date": "2023-09-25T22:29:16.741Z",
+        "appointment_time": "2022-01-05 04:30 PM",
+        "status": "No Show",
+        "created_at": "2023-09-26T03:05:42.844Z",
+        "updated_at": "2023-09-26T14:27:58.388Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "172a1613-d07f-4c8e-847a-f54fccfd8336",
+        "email": "Wiley.Hane97@roq.tech",
+        "firstName": "Angie",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5438681",
+        "tenantId": null
+      },
+      {
+        "reference": "992a52a4-f393-4dac-81e8-6d8f1134b1f7",
+        "email": "Kailyn.Kuvalis35@roq.tech",
+        "firstName": "Trudie",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36586665",
+        "tenantId": null
+      },
+      {
+        "reference": "fd5279e7-9dd9-4bba-8bb1-f38f25b376b7",
+        "email": "Caleb79@roq.tech",
+        "firstName": "Luz",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "786795a6-3806-4799-8c24-3bb7ba9b33ba",
+        "email": "Sasha80@roq.tech",
+        "firstName": "Rodrick",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7f91a21d-c822-452c-8515-d5d03d835470",
+        "email": "Mitchell_Doyle24@roq.tech",
+        "firstName": "Damion",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64236407",
+        "tenantId": null
+      }
+    ]
+  }
+]
